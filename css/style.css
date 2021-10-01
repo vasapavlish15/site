@@ -1,0 +1,147 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    background: #000;
+}
+
+.side-bar.active {
+    left: 0;
+}
+
+.side-bar {
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #57626f;
+    border-right: 4px solid #e0e5ea;
+    transition: all 600ms;
+}
+
+.side-bar ul li:first-child {
+    text-align: center;
+    color: #fff;
+    font-size: 1.95em;
+    list-style: none;
+    padding: 25px 10px 10px 10px;
+}
+
+.side-bar ul li:not(:first-child) {
+    width: 90%;
+    margin-left: 10%;
+    font-size: 1.1em;
+    list-style: none;
+    padding: 15px 10px;
+}
+
+.side-bar ul li a {
+    color: #dfe5eb;
+    text-decoration: none;
+}
+
+.side-bar ul li a:hover { color: #59e9df;}
+
+.side-bar .toogle-btn {
+    position: absolute;
+    left: 270px;
+    top: 14px;
+    background: #e0e5ea;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.side-bar .toogle-btn span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background: #666;
+    margin: 4px 0;
+}
+
+.side-bar .toogle-btn:hover {background: #556270;}
+.side-bar .toogle-btn:hover {background: #fafafa;}
+
+.logo {
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 28px;
+}
+
+.logo a {
+    color: blanchedalmond;
+    text-decoration: none;
+} */
+
+/* .btn {
+    background: rgb(231, 198, 7);
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 3px solid brown;
+    margin-top: 20px;
+}
+
+.sub_box {
+    width: 50px;
+    height: 50px;
+    background: rgb(4, 0, 214);
+    position: relative;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 63px;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+.logo img {
+    margin-top: 14px;
+    margin-left: 150px;
+    max-width: 200px;
+    max-height: 36px;
+}
+
+.page {
+    width: 100%;
+    height: 100px;
+    background: #333333;
+}
+
+.exit {
+    display: flex;
+    width: 400px;
+    height: 380px;
+    background: rgba(212, 212, 212, 0.295);
+    margin: 80px auto;
+    box-shadow: 10px 5px 5px red;
+} 
+
+.exit_text {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+    color: #002402;
+}
+
+.exit_fr {
+    margin-top: 40px;
+    display: block;
+}
